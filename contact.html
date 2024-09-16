@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open X Files - Contact Us</title>
-  <link rel="stylesheet" href="style.css">
+    <!-- Metadata and settings for the website, including character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title that will appear in the browser tab -->
+    <title>Open X Files - Explore the Unknown</title>
+    <!-- Link to the new external CSS file in the 'css' folder -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Open X Files">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="podcasts.html">Podcast</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body onload="onPageLoad()">
 
-  <main>
-    <section class="contact-form">
-      <h1>Contact Us</h1>
-      <p>We'd love to hear from you! Whether you have a tip, a theory, or just want to reach out, fill out the form below or contact us via email or social media.</p>
+    <!-- Header section of the webpage, includes logo and name -->
+    <header>
+       <!-- Displays a logo image and alt text if the image cannot load -->
+       <img src="logo.png" alt="Open X Files Logo" width="100" height="100">
+       <!-- Main title of the webpage (Open X Files) -->
+       <h1>Open X Files</h1>
+    </header>
 
-      <form action="mailto:openxfilespodcast@gmail.com" method="POST" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit" class="button">Send Message</button>
-      </form>
+    <!-- Banner Section -->
+    <section id="banner">
+        <img id="bannerImage" src="banner1.png" alt="Open X Files Banner" width="100%" height="300px">
     </section>
-  </main>
 
-  <footer>
-    <div id="contact-info">
-      <p>Follow us on social media:</p>
-      <a href="https://instagram.com/openxfiles">Instagram</a> |
-      <a href="https://twitter.com/openxfiles">Twitter</a> |
-      <a href="https://youtube.com/@openxfilespodcast">YouTube</a> |
-      <a href="https://tiktok.com/@openxfiles">TikTok</a>
-      <p>Contact us directly at <a href="mailto:openxfilespodcast@gmail.com">openxfilespodcast@gmail.com</a></p>
-    </div>
-  </footer>
+    <!-- Navigation menu section for site-wide navigation links -->
+    <nav>
+       <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="podcasts.html">Podcasts</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-  <audio id="hoverSound">
-    <source src="typewriter-click.mp3" type="audio/mp3">
-  </audio>
-  <script src="script.js"></script>
+    <!-- Main content area of the webpage -->
+    <main>
+        <section>
+          <h2>Welcome to Open X Files!</h2>
+          <p>Explore the dark and mysterious world of unsolved cases, paranormal phenomena, and more. Dive deep with us into the unknown, as we unravel the strangest disappearances, unexplained events, and unresolved mysteries that have left the world wondering.</p>
+        </section>
+        <section>
+            <h2>About the Show</h2>
+            <p>Open X Files is a podcast dedicated to the unsolved, the unexplained, and the eerie. Each episode dives into a real case, with insights and theories that attempt to unlock the truth behind these mysterious stories. Tune in for a new episode every week, where we leave no stone unturned.</p>
+        </section>
+    </main>
+
+    <!-- Footer section of the webpage -->
+    <footer>
+        <p>&copy; 2024 Open X Files</p>
+        <p>Follow us on <a href="https://instagram.com/openxfiles">Instagram</a>, <a href="https://twitter.com/openxfiles">Twitter</a>, and <a href="https://youtube.com/@openxfilespodcast">YouTube</a></p>
+        <p>Contact us at <a href="mailto:openxfilespodcast@gmail.com">openxfilespodcast@gmail.com</a></p>
+    </footer>
+
+    <!-- Link to JavaScript file for the banner -->
+    <script src="banner.js"></script>
 </body>
 </html>
