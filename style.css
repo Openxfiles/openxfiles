@@ -33,12 +33,12 @@ header h1 {
 /* Navigation Menu Styling */
 nav ul {
     list-style-type: none;
-    margin: 20px 0 0 0;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9); /* Ensure the nav background is solid */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Enhance visibility with a shadow */
 }
 
 nav ul li {
@@ -47,17 +47,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f5b342;
+    color: #f5b342; /* Brighter color for text visibility */
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.3s;
-    padding: 10px;
+    transition: color 0.3s ease;
+    padding: 15px 20px; /* Increased padding for better click area */
     display: block;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Increased shadow for better contrast */
 }
 
 nav ul li a:hover {
-    color: #e6a326;
+    color: #e6a326; /* Brighten hover effect */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Emphasize hover effect with stronger shadow */
 }
 
 /* Main Content */
