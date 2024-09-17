@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: url('../assets/images/paper-texture.jpg') no-repeat center center fixed;
+    background: url('paper-texture.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     margin: 0;
