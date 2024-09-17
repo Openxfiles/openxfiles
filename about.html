@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open X Files - About Us</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open X Files - About Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Open X Files">
-    </div>
+<body onload="onPageLoad()">
+
+    <!-- Header section with logo and main title -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Open X Files" width="100" height="100">
+            <h1>Open X Files</h1>
+        </div>
+    </header>
+
+    <!-- Navigation menu -->
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="podcasts.html">Podcast</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+       <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="podcasts.html">Podcasts</a></li>
+          <li><a href="contact.html">Contact</a></li>
+       </ul>
     </nav>
-  </header>
 
-  <main>
-    <section class="about">
-      <h1>About Open X Files</h1>
-      <p>We are a team of anonymous investigators exploring unsolved mysteries, disappearances, and strange phenomena. Join us as we uncover the secrets that remain in the shadows.</p>
-    </section>
-  </main>
+    <!-- Main content area -->
+    <main>
+        <section>
+            <h2>About Open X Files</h2>
+            <p>We are a team of anonymous investigators exploring unsolved mysteries, disappearances, and strange phenomena. Join us as we uncover the secrets that remain in the shadows.</p>
+        </section>
+    </main>
 
-  <footer>
-    <div id="contact">
-      <p>Follow us on social media:</p>
-      <a href="https://instagram.com/openxfiles">Instagram</a> |
-      <a href="https://twitter.com/openxfiles">Twitter</a> |
-      <a href="https://youtube.com/@openxfilespodcast">YouTube</a> |
-      <a href="https://tiktok.com/@openxfiles">TikTok</a>
-      <p>Contact us at <a href="mailto:openxfilespodcast@gmail.com">openxfilespodcast@gmail.com</a></p>
-    </div>
-  </footer>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <p>Follow us on social media:</p>
+            <a href="https://instagram.com/openxfiles">Instagram</a> |
+            <a href="https://twitter.com/openxfiles">Twitter</a> |
+            <a href="https://youtube.com/@openxfilespodcast">YouTube</a> |
+            <a href="https://tiktok.com/@openxfiles">TikTok</a>
+            <p>Contact us at <a href="mailto:openxfilespodcast@gmail.com">openxfilespodcast@gmail.com</a></p>
+            <p>&copy; 2024 Open X Files</p>
+        </div>
+    </footer>
 
-  <audio id="hoverSound">
-    <source src="typewriter-click.mp3" type="audio/mp3">
-  </audio>
-  <script src="script.js"></script>
+    <script src="banner.js"></script>
 </body>
 </html>
